@@ -33,6 +33,15 @@ void print_alphabet_x10(void);
  */
 int _islower(int c);
 
+/**
+ * _isalpha - checks if arg is an alphabetic character
+ * @c: The character to check
+ *
+ * Return: returns 1 if c is a letter, lowercase and uppercase
+ * otherwise, returns 0
+ */
+int _isalpha(int c);
+
 
 
 
