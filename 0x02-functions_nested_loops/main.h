@@ -42,6 +42,14 @@ int _islower(int c);
  */
 int _isalpha(int c);
 
+/**
+ * print_sign(int n) - examine the sign of a number
+ * @n: n is the number to examine
+ *
+ * Return: '+', '0' or '-' if n is postive, zero or negative respectively
+ */
+int print_sign(int n);
+
 
 
 
