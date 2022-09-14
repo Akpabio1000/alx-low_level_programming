@@ -21,7 +21,7 @@ int main(void)
 
 		else
 		{
-			if (counter != 50)
+			if (counter != 49)
 				printf("%li, ", i);
 			else
 				printf("%li", i);
