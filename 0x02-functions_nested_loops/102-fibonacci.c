@@ -14,7 +14,7 @@ int main(void)
 	j = 1;
 	k = 0;
 
-	for (counter = 0; counter < 51; counter++)
+	for (counter = 0; counter < 50; counter++)
 	{
 		if (counter == 51)
 			printf("%li\n", i);
