@@ -65,9 +65,15 @@ int print_last_digit(int);
 
 /**
  * jack_bauer - print every minute from 00:00 to 23:59
- * Return: returns 0
+ * Return: returns nothing
  */
 void jack_bauer(void);
+
+/**
+ * times_table - prints a 9x9 timetable starting from 0
+ * Return: returns nothing
+ */
+void times_table(void);
 
 
 
