@@ -21,7 +21,10 @@ int main(void)
 
 		else
 		{
-			printf("%li, ", i);
+			if (counter != 50)
+				printf("%li, ", i);
+			else
+				printf("%li", i);
 			k = i + j;
 			j = i;
 			i = k;
