@@ -7,19 +7,25 @@
 
 int main(void)
 {
+	int i, j, k;
 	int counter;
-	int count_to = 50;
-	long a = 1;
-	long b = 2;
 
-	for (counter = 1; counter <= (count_to / 2); counter++)
+	i = 1;
+	j = 1;
+	k = 0;
+
+	for (counter = 0; counter < 52; counter++)
 	{
-		printf("%li %li ", a, b);
-		a += b;
-		b += a;
+		if (counter == 51)
+			printf("%i\n", i);
+
+		else
+		{
+			printf("%i, ", i);
+			k = i + j;
+			j = i;
+			i = k;
+		}
 	}
-
-	printf("\n");
-
 	return (0);
 }
