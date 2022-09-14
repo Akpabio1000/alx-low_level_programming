@@ -17,11 +17,11 @@ int main(void)
 	for (counter = 0; counter < 52; counter++)
 	{
 		if (counter == 51)
-			printf("%i\n", i);
+			printf("%li\n", i);
 
 		else
 		{
-			printf("%i, ", i);
+			printf("%li, ", i);
 			k = i + j;
 			j = i;
 			i = k;
