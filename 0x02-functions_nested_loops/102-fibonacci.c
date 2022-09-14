@@ -24,7 +24,7 @@ int main(void)
 			if (counter != 49)
 				printf("%li, ", i);
 			else
-				printf("%li", i);
+				printf("%li ", i);
 			k = i + j;
 			j = i;
 			i = k;
