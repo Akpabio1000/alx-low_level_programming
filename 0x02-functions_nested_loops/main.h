@@ -81,6 +81,12 @@ void times_table(void);
  */
 int add(int, int);
 
+/**
+ * void print_to_98(int n) - prints all natural numbers from n to 98
+ * Return: returns nothing
+ */
+void print_to_98(int n);
+
 
 
 
