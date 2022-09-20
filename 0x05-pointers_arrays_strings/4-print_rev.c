@@ -17,7 +17,9 @@ void print_rev(char *s)
 		len++;
 		s++;
 	}
-	for (i = len ; i >= 0; i--)
+	/* set pointer to the character just before the NULL character */
+	s--;
+	for (i = len ; i > 0; i--)
 	{
 		_putchar(*s);
 		s--;
