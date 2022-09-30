@@ -13,6 +13,8 @@ int is_digit(char *str)
 
 	for (i = 0; str[i]; i++)
 	{
+		if (str[i] == '-')
+			continue;
 		if (!(str[i] >= '0' && str[i] <= '9'))
 			return (0);
 	}
@@ -50,9 +52,14 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		if (is_digit(argv[i]) && atoi(argv[i]) >= 0)
+		if (is_digit(argv[i]))
 		{
-			sum += atoi(argv[i]);
+			if (atoi(argv[i]) < 0)
+				sum += 0;
+			else
+			{
+				sum += atoi(argv[i]);
+			}
 		}
 		else
 		{
