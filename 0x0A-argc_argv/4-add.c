@@ -53,14 +53,7 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		if (is_digit(argv[i]))
-		{
-			if (atoi(argv[i]) < 0)
-				sum += 0;
-			else
-			{
-				sum += atoi(argv[i]);
-			}
-		}
+			sum += atoi(argv[i]);
 		else
 		{
 			printf("Error\n");
