@@ -25,7 +25,7 @@ char *_strdup(char *str)
 		str++;
 	}
 	str = str - len; /* points back to base address */
-	
+
 	len++; /* allow for null character */
 
 	duplicate = malloc(sizeof(char) * len);
