@@ -14,7 +14,7 @@ char *create_array(unsigned int size, char c)
 	char *array;
 	unsigned int i;
 
-	if (size == 0 || size >= INT_MAX)
+	if (size == 0)
 		return (NULL);
 
 	array = (char *)malloc(size);
@@ -22,6 +22,8 @@ char *create_array(unsigned int size, char c)
 	{
 		array[i] = c;
 	}
+	if (array == NULL)
+		return (NULL);
 	return (array);
 }
 
