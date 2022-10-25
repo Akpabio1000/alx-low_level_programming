@@ -4,7 +4,7 @@
 > how to manipulate linked lists via printing all elements, printing nth node, inserting and deleting nodes at the beginning/ending/nth element, and freeing nodes.
 
 ### Description of what each file shows:
-* main_test_files ----- folder holds test files that showcase examples of how to use functions
+* test_files ----- folder holds test files that showcase examples of how to use functions
 * lists.h ---------- holds files' function prototypes
 * Files that start with:
 0. a function that prints all the elements of a listint_t list
